@@ -13,11 +13,8 @@ public class MomVsSonApplication {
 		mom.join();
 		son.join();
 		
-		System.out.println(shelf);
-		
-		
+		System.out.println(shelf);		
 	}
-
 }
 
 ////////////////////
@@ -50,7 +47,7 @@ class SonCakeConsumer extends Thread{
 
 // Resource
 class Cake {
-	static int count = 0;  // общее количество созданных пирогов
+	static int count = 0;  // Г®ГЎГ№ГҐГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г±Г®Г§Г¤Г Г­Г­Г»Гµ ГЇГЁГ°Г®ГЈГ®Гў
 	private int weight;
 	private int order;
 
