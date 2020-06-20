@@ -47,7 +47,7 @@ class SonCakeConsumer extends Thread{
 
 // Resource
 class Cake {
-	static int count = 0;  // îáùåå êîëè÷åñòâî ñîçäàííûõ ïèðîãîâ
+	static int count = 0;  
 	private int weight;
 	private int order;
 
